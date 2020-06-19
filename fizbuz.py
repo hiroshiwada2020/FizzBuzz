@@ -6,8 +6,9 @@ def fizzbuzz_convert(number):
     if number % 5 == 0:
         return "Buzz"
 
-for number in range(101):
-    print(fizzbuzz_convert())
+
+for number in range(1, 101):
+    print(fizzbuzz_convert(number))
 
 assert fizzbuzz_convert(3) == "Fizz"
 assert fizzbuzz_convert(5) == "Buzz"
